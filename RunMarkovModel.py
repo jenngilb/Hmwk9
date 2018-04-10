@@ -4,9 +4,8 @@ import SupportMarkovModel as SupportMarkov
 import scr.SamplePathClasses as PathCls
 import scr.FigureSupport as Figs
 
-print("Hmwk Q1: See attached Markov Model diagram in Github repository")
-print("Hmwk Q2: See modifications in InputData file for adjustments made for model")
-print("Hmwk Q3: See modifications in InputData and Markov files for the attempt to simulate this.")
+print("Hmwk Q1 and Q2: See attached Markov Model diagram in Github repository")
+print("Other Hmwk Qs: See modifications in InputData and Markov files for the attempt to simulate this (did not quite work out well enough to run unfortunately).")
 
 # create a cohort
 cohort = MarkovCls.Cohort(
