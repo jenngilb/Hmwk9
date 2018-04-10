@@ -6,6 +6,8 @@ import scr.FigureSupport as Figs
 
 print("Hmwk Q1: See attached Markov Model diagram in Github repository")
 print("Hmwk Q2: See modifications in InputData file for adjustments made for model")
+print("Hmwk Q3: See modifications in InputData and Markov files for the attempt to simulate this.")
+
 # create a cohort
 cohort = MarkovCls.Cohort(
     id=0,
