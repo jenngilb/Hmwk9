@@ -12,16 +12,18 @@ PSA_ON = False      # if probabilistic sensitivity analysis is on
 
 # transition matrix
 TRANS_MATRIX = [
-    [1251,  350,    116,    17],   # CD4_200to500
-    [0,     731,    512,    15],   # CD4_200
-    [0,     0,      1312,   437],   # AIDS
+    [0.75,  0.15,    0,    0.1],   # Well
+    [0,     0,    1.0,    0],   # Stroke
+    [0,     0.25,      0.55,   0.2],   # Post-stroke
+    [0,     0,      0,   1],   # Dead
     ]
 
 # annual cost of each health state
 ANNUAL_STATE_COST = [
-    2756.0,   # CD4_200to500
-    3025.0,   # CD4_200
-    9007.0    # AIDS
+    0,   # Well
+    5000,   #Stroke
+    0, #Post-stroke
+    0, #Dead
     ]
 
 # annual health utility of each health state

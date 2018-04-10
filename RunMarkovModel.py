@@ -4,6 +4,8 @@ import SupportMarkovModel as SupportMarkov
 import scr.SamplePathClasses as PathCls
 import scr.FigureSupport as Figs
 
+print("Hmwk Q1: See attached Markov Model diagram in Github repository")
+print("Hmwk Q2: See modifications in InputData file for adjustments made for model")
 # create a cohort
 cohort = MarkovCls.Cohort(
     id=0,
@@ -31,3 +33,4 @@ Figs.graph_histogram(
 
 # print the outcomes of this simulated cohort
 SupportMarkov.print_outcomes(simOutputs, 'Mono therapy:')
+

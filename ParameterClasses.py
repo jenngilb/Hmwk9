@@ -9,11 +9,11 @@ import scr.ProbDistParEst as Est
 
 
 class HealthStats(Enum):
-    """ health states of patients with HIV """
-    CD4_200to500 = 0
-    CD4_200 = 1
-    AIDS = 2
-    HIV_DEATH = 3
+    """ health states of patients """
+    Welll = 0
+    Stroke = 1
+    Poststroke = 2
+    Dead = 3
 
 
 class Therapies(Enum):
